@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelpcamp</title>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" crossorigin="anonymous">
+
+    <script crossorigin="anonymous"
+        src="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.umd.min.js"></script>
+    <link crossorigin="anonymous" href="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/stylesheets/app.css">
+</head>
+
+<body class="d-flex flex-column vh-100">
+    <%- include('../partials/navbar') %>
+        <main class="container mt-5">
+            <%- include('../partials/flash') %>
+                <%- body %>
+        </main>
+        <%- include('../partials/footer') %>
+
+            <script src="/javascripts/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+            <script src="/javascripts/validationScript.js"></script>
+</body>
+
+</html>
