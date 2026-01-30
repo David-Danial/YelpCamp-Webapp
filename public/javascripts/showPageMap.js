@@ -6,7 +6,7 @@ const place = element.dataset.location;
 maptilersdk.config.apiKey = maptilerApiKey;
 const map = new maptilersdk.Map({
     container: 'map',
-    style: maptilersdk.MapStyle.STREET,
+    style:maptilersdk.MapStyle.STREETS,
     center: coords,
     zoom: 10
 });
