@@ -1,5 +1,6 @@
 if (process.env.NODE_ENV !== "production") {
     require('dotenv').config();
+    console.log("MAPTILER KEY:",process.env.MAPTILER_API_KEY);
 }
 
 const express = require('express');
